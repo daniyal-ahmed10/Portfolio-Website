@@ -3,83 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dani Ahmed | Portfolio</title>
+    <title>Daniyal Ahmed Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        // Prevent browser from restoring scroll position
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+    </script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Daniyal Ahmed</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Hello, I'm Daniyal Ahmed</h1>
-            <p>Computer Science Student @ University of California, Riverside</p>
-            <a href="#projects" class="btn">Learn More!</a>
+        <div class="hero-text center reveal">
+            <img src="images/portfolio.jpg" alt="Daniyal Ahmed" class="profile-pic">
+            <h1 class="name">Daniyal Ahmed</h1>
+            <p class="school">🧑‍💻📖📚</p>
+            <a href="#projects" class="btn">Check Out My Projects!</a>
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about" class="about reveal">
         <h2>About Me</h2>
-        <p>
-           I'm a Computer Science student with a passion for software development, building meaningful projects, and exploring product management. 
-           Through coursework and hands-on projects, I've gained experience in C++, Python, data structures, algorithms, and system-level programming, and enjoy applying these skills to solve real-world problems.
-            I'm particularly interested in creating software that has a tangible impact, whether it involves developing tools that streamline processes, building applications that improve efficiency, or contributing to innovative projects. 
-            I've built a solid foundation in both technical skills and critical thinking, and eager to continue learning, experimenting, and growing as a developer.
-        </p>
-    </section>
-
-    <section id="skills" class="skills">
-        <h2>Technical Skills & Experience</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>Programming Languages</h3>
-                <p>Python, C++, Java, JavaScript</p>
-            </div>
-            <div class="skill-card">
-                <h3>Web Development</h3>
-                <p>HTML, CSS, React, Next.js</p>
-            </div>
-            <div class="skill-card">
-                <h3>Data Structures & Algorithms</h3>
-                <p>Advanced problem solving, algorithm optimization, system design</p>
-            </div>
-            <div class="skill-card">
-                <h3>Tools & Platforms</h3>
-                <p>Git, Linux, VS Code, MySQL</p>
+        <div class="about-content">
+            <p class="highlight">I'm a Computer Science student💻 with a passion for software development🛠️, building meaningful projects📦, and exploring product management📊.</p>
+            <p>Through coursework and hands-on projects, I've gained experience in <span class="skill-highlight">C++, Python🐍, data structures, algorithms⚡, and system-level programming</span>, and enjoy applying these skills to solve real-world problems🌍.</p>
+            <p>I'm particularly interested in creating software that has a tangible impact, whether it involves developing tools that streamline processes🔧, building applications that improve efficiency⚙️, or contributing to innovative projects🚀.</p>
+            <p>I'm eager to continue learning, collaborate with others, and grow as a developer🌱.</p>
+            <div class="social-links">
+                <a href="https://github.com/daniyal-ahmed10" target="_blank" class="social-btn">GitHub</a>
+                <a href="https://linkedin.com/in/daniyal-ahmed-279888280" target="_blank" class="social-btn">LinkedIn</a>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="projects">
+
+<!-- Experience Section -->
+<section class="experience reveal">
+  <h2>Experience</h2>
+  <div class="experience-grid">
+    <div class="experience-card">
+      <h3>Vice President of Professional Development</h3>
+      <p>ACM @ UCR | May 2025 - Present</p>
+      <p>➤ Led career development workshops, resume/LinkedIn reviews, and mock interviews, increasing member engagement and internship readiness.
+      <p>➤ Managed Bit-Byte Mentorship Program for 50+ pairs, improving satisfaction and retention through effective pairing and event coordination.</p>
+      <p>➤ Advised members on career goals, portfolios, and recruiting strategies, boosting confidence and interview performance.</p>
+      <p>➤ Maintained relationships with 15+ recruiters, alumni, and partners, expanding internship and networking opportunities.</p>
+</p>
+    </div>
+    <div class="experience-card">
+      <h3>Web Developer</h3>
+      <p>ACM @ UCR | December 2024 - March 2025</p>
+      <p>➤ Launched a fully functional website to increase visibility for an underrepresented student club
+      <p>➤ Completed development tasks within a 10-week sprint, contributing to a 100% on-time deployment rate</p>
+      <p>➤ Collaborated with a team of 6+ developers, participated in weekly meetings to propose features and share feedback</p>
+</p>
+    </div>
+    <div class="experience-card">
+      <h3>Office Administrator</h3>
+      <p>DataSoft Inc. | August 2022 - December 2024</p>
+      <p>➤ Streamlined office communication and scheduling to improve daily operations
+      <p>➤ Handled 20+ calls and email correspondences per day, maintaining smooth workflow across departments</p>
+      <p>➤ Managed invoices, supported accounting and marketing tasks, and scheduled meetings to ensure team alignment</p>
+</p>
+    </div>
+    <!-- naybe add some more experience  -->
+  </div>
+</section>
+
+    <!-- Skills Section -->
+<section id="skills" class="skills reveal">
+    <h2>Technical Skills & Experience</h2>
+    <div class="skills-box">
+        <p><strong>Programming Languages:</strong> Python, C++, Java, JavaScript, SQL</p>
+        <p><strong>Web Development:</strong> HTML, CSS, React, Next.js</p>
+        <p><strong>Tools & Platforms:</strong> Git, Linux, Jira, MySQL</p>
+    </div>
+</section>
+
+    <section id="projects" class="projects reveal">
         <h2>Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <h3>Project One</h3>
-                <p>A web application that helps users track their tasks efficiently.</p>
+                <h3>Name of Project One</h3>
+                <p>...</p>
             </div>
             <div class="project-card">
-                <h3>Project Two</h3>
-                <p>A Python script that automates data extraction and reporting.</p>
+                <h3>Name of Project Two</h3>
+                <p>...</p>
             </div>
             <div class="project-card">
-                <h3>Project Three</h3>
-                <p>A C++ program implementing advanced algorithms for problem solving.</p>
+                <h3>Name of Project Three</h3>
+                <p>...</p>
             </div>
         </div>
     </section>
-<!-- 
     <footer>
-        <p>&copy; 2025 Dani Ahmed. All rights reserved.</p>
-    </footer> -->
+        <p>Developed by Daniyal Ahmed. All rights reserved. @2025</p>
+    </footer>
+
+<script>
+    const reveals = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
+        }
+    });
+    }, { threshold: 0.1 });
+
+    reveals.forEach(reveal => observer.observe(reveal));
+</script>
 </body>
 </html>
